@@ -15,14 +15,14 @@ public class Browser{
 	Browser(String name, String version){
 		this.name = name;
 		this.version = version;
-		this.urls = new ArrayList<String>();
+		this.urls = new ArrayList<>();
 		
 	}
 	
 	Browser(String name, String version, String[] urls){
 		this.name = name;
 		this.version = version;
-		this.urls = new ArrayList<String>();
+		this.urls = new ArrayList<>();
 		for(String url : urls) {
 			this.urls.add(url);
 		}
